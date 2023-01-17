@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <!--Escreva um programa que pede o raio de um círculo, e em seguida exiba o perímetro e área do círculo.-->
+    <script>
+        var r = parseFloat(prompt("Informe o raio do círculo:"));
+        var perimetro = 2 * Math.PI * r;
+        var area = Math.PI * Math.pow(r,2);
+
+        document.write("Perímetro do círculo: ",perimetro,"<br>");
+        document.write("Área do círculo: ",area,"<br>");
+    </script>
+</body>
+</html>
